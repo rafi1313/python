@@ -7,9 +7,9 @@ class Pracownicy:
         self.pensja = pensja
 
     def __str__(self):
-        return 'Imię i nazwisko: {} {} Kontrakt: {} Pensja: {} '.format(self.imie, self.nazwisko, self.kontrakt ,self.pensja)
+        return 'Imię i nazwisko: {} {} Kontrakt: {} Pensja: {} '.format(self.imie, self.nazwisko, self.kontrakt, self.pensja)
 
-    def zmienKontrakt(self,pensja):
+    def zmienKontrakt(self, pensja):
         self.kontrakt = "Etat"
         self.pensja = pensja
 
